@@ -1,15 +1,15 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 
-int main07()
+int main()
 {
 	int n = 0;
-	printf("ÇëÊäÈëÒ»¸öÈıÎ»Êı£º");
+	printf("è¯·è¾“å…¥ä¸€ä¸ªä¸‰ä½æ•°ï¼š");
 	scanf("%d", &n);
 	n = n * 1000 + n;
-	printf("ÔËËã½á¹ûÎª£º%d\n", n);
+	printf("è¿ç®—ç»“æœä¸ºï¼š%d\n", n);
 
-	printf("ÔËËã½á¹ûÎª£º%d", n / 7 / 11 / 13);
+	printf("è¿ç®—ç»“æœä¸ºï¼š%d", n / 7 / 11 / 13);
 
 	return 0;
 }
