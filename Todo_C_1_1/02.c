@@ -1,24 +1,24 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 
-int main02()
+int main()
 {	
-	int money = 368;//Ç®Êı
-	printf("368Ôª£¬ÆäÖĞ£º\n");
+	int money = 368;//é’±æ•°
+	printf("368å…ƒï¼Œå…¶ä¸­ï¼š\n");
 	
-	printf("100ÔªĞèÒª%dÕÅ£¬", money / 100);
-	money %= 100;//ÏÈÈ¡ÓàÊı£¬ÔÙ´æ»Ø
+	printf("100å…ƒéœ€è¦%då¼ ï¼Œ", money / 100);
+	money %= 100;//å…ˆå–ä½™æ•°ï¼Œå†å­˜å›
 	
-	printf("50ÔªĞèÒª%dÕÅ£¬", money / 50);
+	printf("50å…ƒéœ€è¦%då¼ ï¼Œ", money / 50);
 	money %= 50;
 	
-	printf("10ÔªĞèÒª%dÕÅ£¬", money / 10);
+	printf("10å…ƒéœ€è¦%då¼ ï¼Œ", money / 10);
 	money %= 10;
 
-	printf("5ÔªĞèÒª%dÕÅ£¬", money / 5);
+	printf("5å…ƒéœ€è¦%då¼ ï¼Œ", money / 5);
 	money %= 5;
 
-	printf("1ÔªĞèÒª%dÕÅ£¬", money / 1);
+	printf("1å…ƒéœ€è¦%då¼ ï¼Œ", money / 1);
 	money %= 1;
 
 	return 0;
