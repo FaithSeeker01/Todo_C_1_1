@@ -2,17 +2,17 @@
 #include <stdio.h>
 #include <math.h>
 
-int main05()
+int main()
 {
 	double r = 0.0;
 	double s = 0.0;
 	double v = 0.0;
-	printf("ÊäÈëÇòµÄ°ë¾¶£º");
+	printf("è¾“å…¥çƒçš„åŠå¾„ï¼š");
 	scanf("%lf", &r);
 	
 	s = 4 * 3.14 * pow(r, 2);
 	v = 4.0 / 3 * 3.14 * pow(r, 3);
-	printf("ÇòµÄ±íÃæ»ıÎª£º%.2f£¬Ìå»ıÎª£º%.2f", s, v);
+	printf("çƒçš„è¡¨é¢ç§¯ä¸ºï¼š%.2fï¼Œä½“ç§¯ä¸ºï¼š%.2f", s, v);
 
 	return 0;
 }
