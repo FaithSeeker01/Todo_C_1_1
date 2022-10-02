@@ -1,13 +1,13 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 
-int main03()
+int main()
 {
-	double c = 17.0; //ÉãÊÏÎÂ¶È
+	double c = 17.0; //æ‘„æ°æ¸©åº¦
 	scanf("%lf", &c);
-	double f = 0; //»ªÊÏÎÂ¶È
+	double f = 0; //åæ°æ¸©åº¦
 	f = c * 1.8 + 32;
-	printf("½ñÌìÎÂ¶È£ºÉãÊÏ%.1f »ªÊÏ£º%.1f", c, f);
+	printf("ä»Šå¤©æ¸©åº¦ï¼šæ‘„æ°%.1f åæ°ï¼š%.1f", c, f);
 
 	return 0;
 }
