@@ -1,12 +1,12 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 
-int main06()
+int main()
 {
 	int n, m;
-	printf("请输入四位数值：");
+	printf("璇疯緭鍏ュ洓浣嶆暟鍊硷細");
 	scanf("%d", &n);
-	//算法：取数位上的数字
+	//绠楁硶锛氬彇鏁颁綅涓婄殑鏁板瓧
 	//1234/1000 = 1
 	//1234%1000/100 = 2
 	//1234%100/10 = 3
